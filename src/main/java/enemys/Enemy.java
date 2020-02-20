@@ -13,6 +13,13 @@ public abstract class Enemy {
         return health;
     }
 
+    public double getDamage(double attackDamage){
+        return health -= attackDamage;
+    }
+
+    public double damage(double attackDamage) {
+        return health;
+    }
 }
 
 

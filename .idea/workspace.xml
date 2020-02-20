@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ca6795-80d1-43b1-be54-e922bf50954a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemys/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemys/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemys/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrollTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enemys/IDamage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AxeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Attacks/Attack.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Attacks/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attacks/Axe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Attacks/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attacks/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Attacks/IWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attacks/IWeapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Attacks/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attacks/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Orc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Troll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enemys/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemys/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enemys/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemys/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Orc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Troll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TrollTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TrollTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TrollTest.hasHealth">
+  <component name="RunManager" selected="JUnit.AxeTest.canGetDamage">
+    <configuration name="AxeTest.canGetDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AxeTest" />
+      <option name="METHOD_NAME" value="canGetDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BarbarianTest.getHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,15 +88,6 @@
       <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
       <option name="METHOD_NAME" value="getName" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy Game LAB" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FighterTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AxeTest.canGetDamage" />
         <item itemvalue="JUnit.TrollTest.hasHealth" />
         <item itemvalue="JUnit.BarbarianTest.getHealth" />
         <item itemvalue="JUnit.BarbarianTest.getName" />
         <item itemvalue="JUnit.FighterTest.getDwarfWeapon" />
-        <item itemvalue="JUnit.FighterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,26 +181,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="160" y="3" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1582199382199" />
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1582209457977">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1582210981327">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582205073155" />
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582209457977" />
-    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1582209457976">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582210981327" />
+    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1582210981326">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582205073153" />
-    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582209457976" />
-    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1582209457975">
+    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582210981326" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1582210981326">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582205073152" />
-    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582209457975" />
-    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1582209457976">
+    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582210981326" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1582210981327">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582205073154" />
-    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582209457976" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582210981327" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1582204397828">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -229,5 +221,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1582198482701" />
+    <state x="427" y="83" key="refactoring.ChangeSignatureDialog" timestamp="1582212953841">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="427" y="83" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1582212953841" />
   </component>
 </project>
